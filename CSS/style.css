@@ -13,7 +13,7 @@ nav {
     background-color: #fff;
 }
 ul {
-
+    margin-left: 0px;
 }
 
 ul li {
@@ -30,4 +30,8 @@ ul li a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: dimgray;
     padding: 0 20px;
+}
+
+ul li a:hover {
+    color: red;
 }
