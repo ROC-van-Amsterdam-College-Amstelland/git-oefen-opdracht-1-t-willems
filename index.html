@@ -30,11 +30,16 @@
             <div class="TextContainer">
                 Hallo, ik ben Tygo Willems en zit op het MBO Amstelland, ik ben 17 jaar en doe de opleiding: Applicatieontwikkelaar.<br>Hieronder heb ik een paar foto's als je op een van de knoppen klikt komt er een foto tevoorschijn.
             </div>
-            <div class="ButtonContainer">
-                <button class="Button1" style="margin-bottom:30px;">Foto 1</button>
-                <button class="Button2" style="margin-bottom:30px;">Foto 2</button>
-                <button class="Button3" style="margin-bottom:30px;">Foto 3</button>
-                <button class="Button4" style="margin-bottom:30px;">Foto 4</button>
+            <div class="flex-container">
+                <div class="ButtonContainer">
+                            <button class="Button1" onclick="changeImage1()" style="margin-bottom:30px;">Foto 1</button>
+                            <button class="Button2" onclick="changeImage2()" style="margin-bottom:30px;">Foto 2</button>
+                            <button class="Button3" onclick="changeImage3()" style="margin-bottom:30px;">Foto 3</button>
+                            <button class="Button4" onclick="changeImage4()" style="margin-bottom:30px;">Foto 4</button>
+                </div>
+                <div class="Fotos">
+                    <img id="image" src="Images/foto 1.jpg"/>
+                </div>
             </div>
         </main>
         <footer id="footer">
