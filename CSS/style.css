@@ -56,10 +56,64 @@ h1 {
 .TextContainer {
     background-image: url(../Images/55.jpg);
     color: black;
-    margin: 20px;
+    margin: 20px;    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 24px;
+}
+
+.TextContainer2 {
+    background-image: url(../Images/55.jpg);
+    color: black;
+    margin: 20px;    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 30px;
+}
+
+.TextContainer3 {
+    background-image: url(../Images/55.jpg);
+    color: black;
+    margin: 20px;    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 30px;
+}
+
+
+.LikeContainer {
+    font-size: 50px;
+    color: white;
+    justify-content: flex-end;
+    display: flex;
+}
+
+#footer {
+    background-image: url(../Images/55.jpg);
+    color: black;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-style: solid;
     border-width: 2px;
+    justify-content: flex-end;
+    display: flex;
+}
+
+#main {
+    height: 71.5vh;
+}
+
+.ButtonContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 90%;
+    margin-top: 50px;
+}
+
+.ButtonContainer :hover {
+    background-color: skyblue;
 }
 

@@ -6,28 +6,40 @@
         <script src="JS/script.js"></script>
     </head>
     <body>
-        <nav>
-            <div class="NavContainer">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Portfolio.html">Projecten</a></li>
-                    <li><a href="Over Mij.html">Over Mij</a></li>
-                    <li><a href="https://github.com/ROC-van-Amsterdam-College-Amstelland/git-oefen-opdracht-1-t-willems">GitHub</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                </ul>  
+        <header>
+            <nav>
+                <div class="NavContainer">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Portfolio.html">Projecten</a></li>
+                        <li><a href="Over Mij.html">Over Mij</a></li>
+                        <li><a href="https://github.com/ROC-van-Amsterdam-College-Amstelland/git-oefen-opdracht-1-t-willems">GitHub</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>  
+                    <div class="LikeContainer">
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main id="main">
+            <div class="ContentContainer">
+                <h1>Homepagina</h1>
             </div>
-        </nav>
-        <div class="ContentContainer">
-            <h1>Homepagina</h1>
-        </div>
-        <div class="TextContainer">
-            Hallo, ik ben Tygo Willems en zit op het MBO Amstelland, ik ben 17 jaar en doe de opleiding: Applicatieontwikkelaar.
-        </div>
-        <div class="ButtonContainer">
-            <button class="Button1">Foto 1</button>
-            <button class="Button2">Foto 2</button>
-            <button class="Button3">Foto 3</button>
-            <button class="Button4">Foto 4</button>
-        </div>
+            <div class="TextContainer">
+                Hallo, ik ben Tygo Willems en zit op het MBO Amstelland, ik ben 17 jaar en doe de opleiding: Applicatieontwikkelaar.<br>Hieronder heb ik een paar foto's als je op een van de knoppen klikt komt er een foto tevoorschijn.
+            </div>
+            <div class="ButtonContainer">
+                <button class="Button1" style="margin-bottom:30px;">Foto 1</button>
+                <button class="Button2" style="margin-bottom:30px;">Foto 2</button>
+                <button class="Button3" style="margin-bottom:30px;">Foto 3</button>
+                <button class="Button4" style="margin-bottom:30px;">Foto 4</button>
+            </div>
+        </main>
+        <footer id="footer">
+            <p id="date"></p>
+        </footer>
+
     </body>
 </html>
